@@ -5,6 +5,3 @@ qr.add_data(input("Enter the data to be Encoded: "))
 qr.make(fit=True)
 img = qr.make_image(fill_color="black", back_color= 'White')
 img.save("git.png")
-
-
-
